@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { DatepickerMinMaxExampleComponent } from './datepicker-min-max-example/datepicker-min-max-example.component';
+import { MaterialsUiModule } from './materials-ui/materials-ui.module';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { DatepickerMinMaxExampleComponent } from './datepicker-min-max-example/d
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialsUiModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
